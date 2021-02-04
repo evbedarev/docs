@@ -2,6 +2,7 @@
 1. [vim-surround](#surround)
 2. [vim-xml](#xml)
 3. [vim-git](#git)
+4. [commands](#cmd)
 
 ## vim-surround <a name="surround"></a>
 - for help 
@@ -208,3 +209,24 @@ For more information, see `:help fugitive`.
 * [Resolving merge conflicts with vimdiff](http://vimcasts.org/e/33)
 * [Browsing the git object database](http://vimcasts.org/e/34)
 * [Exploring the history of a git repository](http://vimcasts.org/e/35)
+
+## Vim commands <a name="cmd"></a>
+* In addition to the above answers, you can use the current vim buffer content as stdin for shell command using :%!.
+
+* For example, suppose you want to filter lines from the current vim window content to contain only those with substring ca inside them. You could use:
+```bash
+:%! grep ca
+```
+
+* From a VIM help mirror:
+```bash
+:shell        :sh[ell]        start a shell
+:!            :!{command}     execute {command} with a shell
+```
+
+* Open explorer in current window
+```bash
+:Ex
+```
+
+
