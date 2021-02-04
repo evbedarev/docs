@@ -48,9 +48,8 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'rails.vim'
 "Bundle 'Vim-Jinja2-Syntax'
+Bundle 'othree/xml.vim'
 
-"git репозитории (не на github)
-Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'https://github.com/martinda/Jenkinsfile-vim-syntax.git'
 Bundle 'shime/vim-livedown'
 filetype indent on
