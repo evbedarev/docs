@@ -233,4 +233,5 @@ For more information, see `:help fugitive`.
 ```bash
 Ctrl+z - minimize vim window to foreground
 fg - bring back vim  from foreground
+:noh - disable hightlight last search
 ```
