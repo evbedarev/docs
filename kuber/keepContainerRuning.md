@@ -3,10 +3,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ubuntu
+  name: debug
 spec:
   containers:
-  - name: ubuntu
+  - name: debug
     image: ubuntu:latest
     # Just spin & wait forever
     command: [ "/bin/bash", "-c", "--" ]
