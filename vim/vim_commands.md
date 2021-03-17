@@ -235,3 +235,7 @@ Ctrl+z - minimize vim window to foreground
 fg - bring back vim  from foreground
 :noh - disable hightlight last search
 ```
+* Past in command line from "a" buffer
+```bash
+Ctrl+r a
+```
