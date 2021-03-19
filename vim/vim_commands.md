@@ -1,8 +1,6 @@
-# Vim commands
-1. [vim-surround](#surround)
-2. [vim-xml](#xml)
 3. [vim-git](#git)
 4. [commands](#cmd)
+5. [NerdTree](#nerdtree)
 
 ## vim-surround <a name="surround"></a>
 - for help 
@@ -229,4 +227,10 @@ For more information, see `:help fugitive`.
 :Ex
 ```
 
-
+# NerdTree
+* Что бы запускать его каждый раз при запуске vim — добавляем autocmd vimenter * NERDTree.
+* Для вызова-скрытия менюшки по комбинации клавиш — добавляем map <C-n> :NERDTreeToggle<CR> (или меняем Ctrl+n на свою):
+* Для переключения из окна файлов-каталогов к редактируемому фйлу — используем Ctrl+w+w, для отображения скрытых файлов — Shitf+i:
+* Что бы создать файл из NERDTree — вызываем меню клавишей m:
+* Клавишей a — добавляем новый элемент. Если это файл — то просто указываем имя, если директория — добавляем в конце обратный слеш «/«:
+![imageNerd](/images/Screenshot_20181115_104208.png)
