@@ -234,3 +234,13 @@ For more information, see `:help fugitive`.
 * Что бы создать файл из NERDTree — вызываем меню клавишей m:
 * Клавишей a — добавляем новый элемент. Если это файл — то просто указываем имя, если директория — добавляем в конце обратный слеш «/«:
 ![imageNerd](/images/Screenshot_20181115_104208.png)
+* Usefull commands
+```bash
+Ctrl+z - minimize vim window to foreground
+fg - bring back vim  from foreground
+:noh - disable hightlight last search
+```
+* Past in command line from "a" buffer
+```bash
+Ctrl+r a
+```
